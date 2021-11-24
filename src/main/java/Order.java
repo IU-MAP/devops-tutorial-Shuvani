@@ -7,7 +7,6 @@ public class Order {
 
     private List<Drink> contents = new LinkedList<>();
     private double taxes = 0.0;
-
     private String owner;
     public void setOwner(String who) { this.owner = who; }
     private String recipient;
